@@ -2,4 +2,6 @@
 **/*.project
 **/*.propath
 **/*.settings
+**/*.metadata
 **/build.config
+Solutions/logging.txt
