@@ -54,6 +54,10 @@ CLASS Exercise_17.OrderStateMachine:
 
     END METHOD.
 
+    METHOD PUBLIC VOID changeStateToProdStarted ():
+        CAST(currentState, stateProductionStarted):goBackToProd(THIS-OBJECT).
+    END METHOD.
+
     METHOD PUBLIC VOID setState(objState AS State):
         currentState = objState.
     END METHOD.    

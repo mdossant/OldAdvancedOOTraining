@@ -18,5 +18,7 @@ CLASS Behavioural.State.TurnstileState ABSTRACT:
     METHOD PUBLIC ABSTRACT VOID Coin (stateMachine AS TurnstileStateMachine).
 
     METHOD PUBLIC ABSTRACT VOID Push (stateMachine AS TurnstileStateMachine).
+    
+    METHOD PUBLIC ABSTRACT VOID START (stateMachine AS TurnstileStateMachine).
 
 END CLASS.

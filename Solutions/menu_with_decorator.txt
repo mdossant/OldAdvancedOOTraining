@@ -1,0 +1,9 @@
+Root    
+-File   
+--New   
+--Open  
+--Save  
+-Edit   
+--Cut   
+--Copy  
+--Paste 

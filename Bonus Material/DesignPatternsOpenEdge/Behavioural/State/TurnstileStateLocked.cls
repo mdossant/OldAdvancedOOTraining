@@ -21,7 +21,9 @@ CLASS Behavioural.State.TurnstileStateLocked INHERITS TurnstileState:
     END METHOD.
 
     METHOD OVERRIDE PUBLIC VOID Push (stateMachine AS TurnstileStateMachine):
-        MESSAGE "Cannot push without first inserting coin" view-as alert-box.
+        MESSAGE "Cannot push without first inserting coin" VIEW-AS ALERT-BOX.
     END METHOD.
     
+    METHOD OVERRIDE PUBLIC VOID Start (stateMachine AS TurnstileStateMachine):
+    END METHOD.
 END CLASS.

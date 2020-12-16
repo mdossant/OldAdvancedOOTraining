@@ -20,12 +20,13 @@ turnstile_001:stateMachine:Coin().
 turnstile_001:stateMachine:Push().
 turnstile_001:stateMachine:Push().
 turnstile_001:stateMachine:Coin().
-turnstile_001:stateMachine:Push().
+/*turnstile_001:stateMachine:Push().*/
 
 MESSAGE
     "Turnstile" turnstile_001:id SKIP
     "Location" turnstile_001:location SKIP
     "Address" turnstile_001:address SKIP
     "Number of coins" turnstile_001:numberOfCoins SKIP
-    "Number of pushes" turnstile_001:numberOfPushes
+    "Number of pushes" turnstile_001:numberOfPushes SKIP
+    "Current State" turnstile_001:stateMachine:currentState
     VIEW-AS ALERT-BOX.

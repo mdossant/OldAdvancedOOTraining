@@ -19,6 +19,6 @@ objVorsprung = CarFactoryA:createObject("Vorsprung durch technik").
 objFreude = CarFactoryA:createObject("Freude am fahren").
 
 MESSAGE
-    "Vorsprung mit" objVorsprung:Brand SKIP 
+    "Vorsprung with ==> " objVorsprung:Brand SKIP 
     "Freude mit " objFreude:Brand
     VIEW-AS ALERT-BOX.

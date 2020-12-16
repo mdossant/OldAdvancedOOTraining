@@ -21,7 +21,7 @@ DEFINE VARIABLE total2  AS DECIMAL    NO-UNDO.
 DEFINE VARIABLE total3  AS DECIMAL    NO-UNDO.
 
 ASSIGN
-    taxCalc = NEW GATaxVisitor()
+    taxCalc = NEW NHTaxVisitor()
     prod1   = NEW Grocery("Milk",3,5)
     prod2   = NEW Appliance("Fridge",1,1500)
     prod3   = NEW Computer("iMac",1,1200)

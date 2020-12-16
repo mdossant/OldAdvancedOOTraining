@@ -14,4 +14,4 @@ END PROCEDURE.
 
 RUN addFurnitureToCart("Armoire", 10).
 RUN addFurnitureToCart("Table", 5).
-//RUN addFurnitureToCart("Chair", 20).
+/*RUN addFurnitureToCart("Chair", 20).*/

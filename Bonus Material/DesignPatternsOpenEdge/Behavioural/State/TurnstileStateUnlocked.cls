@@ -24,4 +24,7 @@ CLASS Behavioural.State.TurnstileStateUnlocked INHERITS TurnstileState:
         stateMachine:currentState = NEW TurnstileStateLocked().
     END METHOD.
 
+    METHOD OVERRIDE PUBLIC VOID Start (stateMachine AS TurnstileStateMachine):
+    END METHOD.
+
 END CLASS.

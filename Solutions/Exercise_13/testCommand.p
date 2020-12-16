@@ -19,7 +19,7 @@ DEFINE VARIABLE objBatcher       AS Batcher                     NO-UNDO.
 ASSIGN 
     objBatcher            = NEW Batcher()
     objCommand            = NEW Command()
-    objCommand:gcReceiver = "Exercise_13.ProxyCar"
+    objCommand:gcReceiver = "Exercise_13.Car"
     objCommand:gcMethod   = "addFuel"
     objParameterList      = NEW Progress.Lang.ParameterList(1).
 
@@ -29,7 +29,7 @@ objBatcher:addCommand(objCommand,1).
 
 ASSIGN 
     objCommand            = NEW Command()
-    objCommand:gcReceiver = "Exercise_13.ProxyCar"
+    objCommand:gcReceiver = "Exercise_13.Car"
     objCommand:gcMethod   = "addFuel"
     objParameterList      = NEW Progress.Lang.ParameterList(1).
 

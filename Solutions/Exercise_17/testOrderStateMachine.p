@@ -22,7 +22,7 @@ ASSIGN
     objOrder:totalOrderAmount = 10000.
 
 /* nothing paid */
-/*objOrder:OrderStateMachine:noPaymentReceived().*/
+objOrder:OrderStateMachine:noPaymentReceived().
 
 /* pay some money, but not enough */
 objOrder:OrderStateMachine:receiveDownpayment(1500).
@@ -38,3 +38,5 @@ objOrder:OrderStateMachine:receiveSecondPayment(8000).
 
 /* get the keys */
 objOrder:OrderStateMachine:carDelivered().
+
+objOrder:orderStateMachine:changeStateToProdStarted().

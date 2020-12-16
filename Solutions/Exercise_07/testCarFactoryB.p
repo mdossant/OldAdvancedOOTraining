@@ -26,3 +26,9 @@ MESSAGE
     "Freude mit" objFreude:Brand SKIP
     "Go Further with" objGoFurther:Brand
     VIEW-AS ALERT-BOX.
+    
+FINALLY:
+    DELETE OBJECT objVorsprung.
+    DELETE OBJECT objFreude.
+    DELETE OBJECT objGoFurther.
+END FINALLY.

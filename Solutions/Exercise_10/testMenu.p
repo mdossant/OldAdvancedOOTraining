@@ -29,6 +29,6 @@ objBranch:add(NEW MenuLeaf("--Copy")).
 objBranch:add(NEW MenuLeaf("--Paste")).
 
 OUTPUT TO "menu.txt".
-objRoot:print().
-    
+//objBranch:print().
+  new MenuLeaf("new menu option"):print()  
 

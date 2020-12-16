@@ -27,7 +27,7 @@ CLASS Exercise_13.Car:
     @progress.service.resourceMapping(type="REST", operation="invoke", URI="/addFuel", alias="", mediaType="application/json").
     METHOD PUBLIC VOID addFuel(INPUT ipiLiters AS INTEGER):
         
-        MESSAGE PROGRAM-NAME(1) ipiLiters ' liters added'
+        MESSAGE PROGRAM-NAME(1) ipiLiters ' GALLONS added'
             VIEW-AS ALERT-BOX.
 
     END METHOD.
