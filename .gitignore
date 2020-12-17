@@ -3,5 +3,6 @@
 **/*.propath
 **/*.settings
 **/*.metadata
+**/*.services
 **/build.config
 Solutions/logging.txt
